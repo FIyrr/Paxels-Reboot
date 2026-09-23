@@ -13,6 +13,7 @@
         "minecraft:item_name": {"translate":"paxels.iron_paxel","fallback":"Iron Paxel"},
         "minecraft:custom_model_data": {"strings":["paxel"]},
         "minecraft:custom_data": "{paxels:{is_paxel:true, type:\"iron\"}}",
+        "minecraft:block_transformer": "paxels:paxel",
         "minecraft:tool": {
           "rules": [
             {

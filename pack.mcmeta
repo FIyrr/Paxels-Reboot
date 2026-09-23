@@ -1,8 +1,10 @@
 {
     "pack":{
-        "pack_format": 101.1,
-        "description":[
-            {"text":"Paxels Datapack by Flyrr :) Find me on Modrinth!"}
+    "pack_format": 121,
+    "min_format": 121,
+    "max_format": 122,
+    "description":[
+            {"text":"Paxels Datapack by Flyrr, find me on Modrinth :)","color":"#8bffd8"}
         ]
     }
 }
