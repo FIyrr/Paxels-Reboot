@@ -10,8 +10,8 @@
     "result": {
       "id": "minecraft:wooden_axe",
       "components": {
-        "minecraft:item_name": "{\"translate\":\"paxels.wood_paxel\",\"fallback\":\"Wooden Paxel\"}",
-        "minecraft:custom_model_data": 349580,
+        "minecraft:item_name": {"translate":"paxels.wooden_paxel","fallback":"Wooden Paxel"},
+        "minecraft:custom_model_data": {"strings":["paxel"]},
         "minecraft:custom_data": "{paxels:{is_paxel:true, type:\"wood\"}}",
         "minecraft:tool": {
           "rules": [

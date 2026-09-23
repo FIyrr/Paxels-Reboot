@@ -1,1 +1,2 @@
 execute as @a[predicate=paxels:paxel_needs_upgrade] run item modify entity @s weapon.mainhand paxels:upgrade_to_netherite
+execute as @a[predicate=paxels:paxel_needs_upgrade_cursor] run item modify entity @s player.cursor paxels:upgrade_to_netherite

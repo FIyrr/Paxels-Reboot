@@ -3,35 +3,35 @@
     "category": "equipment",
     "group": "paxels:paxels",
     "ingredients": [
-      "minecraft:stone_axe",
-      "minecraft:stone_shovel",
-      "minecraft:stone_pickaxe"
+      "minecraft:copper_axe",
+      "minecraft:copper_shovel",
+      "minecraft:copper_pickaxe"
     ],
     "result": {
-      "id": "minecraft:stone_axe",
+      "id": "minecraft:copper_axe",
       "components": {
-        "minecraft:item_name": {"translate":"paxels.stone_paxel","fallback":"Stone Paxel"},
+        "minecraft:item_name": {"translate":"paxels.copper_paxel","fallback":"Copper Paxel"},
         "minecraft:custom_model_data": {"strings":["paxel"]},
-        "minecraft:custom_data": "{paxels:{is_paxel:true, type:\"stone\"}}",
+        "minecraft:custom_data": "{paxels:{is_paxel:true, type:\"copper\"}}",
         "minecraft:tool": {
           "rules": [
             {
-              "blocks": "#minecraft:incorrect_for_stone_tool",
+              "blocks": "#minecraft:incorrect_for_copper_tool",
               "correct_for_drops": false
             },
             {
               "blocks": "#minecraft:mineable/axe",
-              "speed": 4,
+              "speed": 5.0,
               "correct_for_drops": true
             },
             {
               "blocks": "#minecraft:mineable/pickaxe",
-              "speed": 4,
+              "speed": 5.0,
               "correct_for_drops": true
             },
             {
               "blocks": "#minecraft:mineable/shovel",
-              "speed": 4,
+              "speed": 5.0,
               "correct_for_drops": true
             }
           ]
